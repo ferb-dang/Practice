@@ -1,0 +1,137 @@
+/* Core styles for the entire page
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: monospace
+}
+
+.article1{
+    color: blue;
+}
+
+article{
+    color: yellow;
+
+}
+
+body {
+    font-size: 22px;
+    background-color: papayawhip;
+    color: #000000;
+}
+
+header {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 18px;
+    border: 2px blue dashed;
+    color: purple;
+    width: 50%;
+}
+
+h1, h2 {
+    font-size: 28px;
+    color: green;
+}
+
+.header {
+    font-size: 24px;
+    color: blue;
+}
+
+#tex {
+    font-size: 20px;
+    color: purple;
+}
+
+/* Styling for the navigator */
+.navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navigator .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigator .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator .nav-links li {
+    margin-left: 20px;
+}
+
+.navigator .nav-links a {
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navigator .nav-links a:hover {
+    color: #00bcd4; /* Highlight color on hover */
+}
